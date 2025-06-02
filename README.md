@@ -9,13 +9,15 @@ This code repository includes an implementation demo of the collaborative genera
 
 ## Test different models 
 In script [MEG_inference.py](./MEG_inference.py), line 19, you may choose [Stable Diffusion 3-medium](https://huggingface.co/stabilityai/stable-diffusion-3-medium) as the ES model by setting ES_MODEL = 'SD3'. 
-* You may need to apply for a huggingface user access token(https://huggingface.co/docs/hub/security-tokens) to use this model *
-* Put your user access token in script [MEG_inference.py](./MEG_inference.py), line 20. *
+>  *You may need to apply for a [huggingface user access token](https://huggingface.co/docs/hub/security-tokens) to use this model*
+> 
+>  *Put your user access token in script [MEG_inference.py](./MEG_inference.py), line 20.*
 
 ## Test different generation modes
 We provide two generation modes in this implementation demo. 
-For the first generation mode (for generation quality comparison in our paper), set `TEST_MODE = 0` in [MEG_inference.py](./MEG_inference.py), line 18.
-For the second genration mode (for actual deployment), set `TEST_MODE = 1` in [MEG_inference.py](./MEG_inference.py), line 18.
+> To test the first generation mode (for generation quality comparison in our paper), set `TEST_MODE = 0` in [MEG_inference.py](./MEG_inference.py), line 18.
+> 
+> To test the second genration mode (for actual deployment), set `TEST_MODE = 1` in [MEG_inference.py](./MEG_inference.py), line 18.
 
 ## Generated Results
 ![Edge LGM using SDXL, Mode 1](./demo/Samples.jpg)
