@@ -20,6 +20,10 @@ We provide two generation modes in this implementation demo.
 > To test the second genration mode (for actual deployment), set `TEST_MODE = 1` in [MEG_inference.py](./MEG_inference.py), line 18.
 
 ## Generated Results
+- **Sample results 1.** Edge LGM using SDXL, Mode 1.
 ![Edge LGM using SDXL, Mode 1](./demo/Samples.jpg)
+- **Sample results 2.** Edge LGM using SD3-Medium, Mode 1.
 ![Edge LGM using SD3, Mode 1](./demo/Samples_SD3.jpg)
+- **Sample results 3.** Edge LGM using SDXL, Mode 2.
 ![Edge LGM using SDXL, Mode 2](./demo/Samples_mode2.jpg)
+
