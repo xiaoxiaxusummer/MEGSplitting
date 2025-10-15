@@ -1,6 +1,6 @@
 # MEGSplitting
 
-This code repository includes an implementation demo of the collaborative generation pipeline developed in our paper [Large Model at Edge: An Optimal Mobile Edge Generation (MEG) Design](https://ieeexplore.ieee.org/abstract/document/11200498), which has been published by IEEE TWC. 
+This code repository includes an implementation demo of the collaborative generation pipeline developed in paper **"Large Model at Edge: An Optimal Mobile Edge Generation (MEG) Design"**, which has been published by IEEE TWC (see [https://ieeexplore.ieee.org/abstract/document/11200498](https://ieeexplore.ieee.org/abstract/document/11200498)). 
 The novel concept of generation splitting is introduced in [[Slides]](./Optimal%20Energy-Delay%20Tradeoff%20for%20MEG.pdf) of our TWC paper (and the conference version) presented in ICC 2025. Manuscript of the according journal paper is under review and will be available soon.  
 
 ## Reproduce generated results
